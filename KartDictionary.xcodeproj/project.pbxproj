@@ -71,6 +71,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F307DE7281BB76C00F89A62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6FC52D4C281BAF0C00872956 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +101,7 @@
 		6FC52D57281BAF0C00872956 /* KartDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				6F307DE7281BB76C00F89A62 /* Views */,
 				6FC52D58281BAF0C00872956 /* KartDictionaryApp.swift */,
 				6FC52D5A281BAF0C00872956 /* ContentView.swift */,
 				6FC52D5C281BAF0F00872956 /* Assets.xcassets */,
