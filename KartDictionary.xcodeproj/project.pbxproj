@@ -14,6 +14,11 @@
 		6FC52D6A281BAF0F00872956 /* KartDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D69281BAF0F00872956 /* KartDictionaryTests.swift */; };
 		6FC52D74281BAF0F00872956 /* KartDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D73281BAF0F00872956 /* KartDictionaryUITests.swift */; };
 		6FC52D76281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D75281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift */; };
+		6FEFEA15281BCCF800C1F4C3 /* LeagueMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA14281BCCF800C1F4C3 /* LeagueMainView.swift */; };
+		6FEFEA18281BCD1600C1F4C3 /* TrackMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */; };
+		6FEFEA1B281BCD4400C1F4C3 /* KartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */; };
+		6FEFEA1E281BCD7900C1F4C3 /* PlayerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA1D281BCD7900C1F4C3 /* PlayerMainView.swift */; };
+		6FEFEA21281BCDA400C1F4C3 /* RecordMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA20281BCDA400C1F4C3 /* RecordMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		6FC52D6F281BAF0F00872956 /* KartDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC52D73281BAF0F00872956 /* KartDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDictionaryUITests.swift; sourceTree = "<group>"; };
 		6FC52D75281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FEFEA14281BCCF800C1F4C3 /* LeagueMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueMainView.swift; sourceTree = "<group>"; };
+		6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMainView.swift; sourceTree = "<group>"; };
+		6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartMainView.swift; sourceTree = "<group>"; };
+		6FEFEA1D281BCD7900C1F4C3 /* PlayerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMainView.swift; sourceTree = "<group>"; };
+		6FEFEA20281BCDA400C1F4C3 /* RecordMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,12 @@
 		6F307DE7281BB76C00F89A62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6FC52D5A281BAF0C00872956 /* ContentView.swift */,
+				6FEFEA13281BCCD800C1F4C3 /* League */,
+				6FEFEA16281BCD0200C1F4C3 /* Track */,
+				6FEFEA19281BCD1E00C1F4C3 /* Kart */,
+				6FEFEA1C281BCD6000C1F4C3 /* Player */,
+				6FEFEA1F281BCD8100C1F4C3 /* Record */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,11 +117,10 @@
 		6FC52D57281BAF0C00872956 /* KartDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				6F307DE7281BB76C00F89A62 /* Views */,
 				6FC52D58281BAF0C00872956 /* KartDictionaryApp.swift */,
-				6FC52D5A281BAF0C00872956 /* ContentView.swift */,
-				6FC52D5C281BAF0F00872956 /* Assets.xcassets */,
+				6F307DE7281BB76C00F89A62 /* Views */,
 				6FC52D5E281BAF0F00872956 /* Preview Content */,
+				6FC52D5C281BAF0F00872956 /* Assets.xcassets */,
 			);
 			path = KartDictionary;
 			sourceTree = "<group>";
@@ -133,6 +148,46 @@
 				6FC52D75281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift */,
 			);
 			path = KartDictionaryUITests;
+			sourceTree = "<group>";
+		};
+		6FEFEA13281BCCD800C1F4C3 /* League */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFEA14281BCCF800C1F4C3 /* LeagueMainView.swift */,
+			);
+			path = League;
+			sourceTree = "<group>";
+		};
+		6FEFEA16281BCD0200C1F4C3 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		6FEFEA19281BCD1E00C1F4C3 /* Kart */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */,
+			);
+			path = Kart;
+			sourceTree = "<group>";
+		};
+		6FEFEA1C281BCD6000C1F4C3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFEA1D281BCD7900C1F4C3 /* PlayerMainView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		6FEFEA1F281BCD8100C1F4C3 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFEA20281BCDA400C1F4C3 /* RecordMainView.swift */,
+			);
+			path = Record;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEFEA1E281BCD7900C1F4C3 /* PlayerMainView.swift in Sources */,
 				6FC52D5B281BAF0C00872956 /* ContentView.swift in Sources */,
 				6FC52D59281BAF0C00872956 /* KartDictionaryApp.swift in Sources */,
+				6FEFEA21281BCDA400C1F4C3 /* RecordMainView.swift in Sources */,
+				6FEFEA15281BCCF800C1F4C3 /* LeagueMainView.swift in Sources */,
+				6FEFEA18281BCD1600C1F4C3 /* TrackMainView.swift in Sources */,
+				6FEFEA1B281BCD4400C1F4C3 /* KartMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
