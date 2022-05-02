@@ -16,7 +16,8 @@ struct ContentView: View {
         case record = "기록실"
     }
     @State var tabSelection:Tabs = .league
-    @State var elementSearch:String = ""
+    @State var searchText:String = ""
+    
     var body: some View {
         NavigationView {
             TabView(selection: $tabSelection) {
@@ -82,6 +83,7 @@ struct ContentView: View {
             }.accentColor(.purple)
                 .navigationTitle(self.tabSelection.rawValue)
                 .navigationBarTitleDisplayMode(.inline)
+                .searchable(text: $searchText)
         }
     }
 }
