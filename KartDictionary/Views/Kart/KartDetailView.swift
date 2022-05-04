@@ -10,6 +10,8 @@ import SwiftUI
 struct KartDetailView: View {
     var engine: String
     @State var kartType = "speed"
+    @State private var searchText = ""
+
     var body: some View {
         VStack{
             Picker(selection: $kartType, label: Text("Kart List")) {
@@ -21,14 +23,24 @@ struct KartDetailView: View {
                 .padding()
             ScrollView{
                 LazyVGrid(columns: Array(repeating: .init(.flexible()), count: 3)) {
-                    ForEach(karts.filter({$0.type == engine})
-                        .filter({$0.mode == kartType}), id:\.id) {kart in
-                            NavigationLink(destination: KartIntroView(kart:kart), label: {KartListRow(kart:kart)})
-                        }
+                    if searchText != "" {
+                        ForEach(karts.filter({$0.type == engine})
+                            .filter({$0.mode == kartType})
+                            .filter({$0.name.contains(searchText)}), id:\.id) {kart in
+                                NavigationLink(destination: KartIntroView(kart:kart), label: {KartListRow(kart:kart)})
+                            }
+                    }
+                    else {
+                        ForEach(karts.filter({$0.type == engine})
+                            .filter({$0.mode == kartType}), id:\.id) {kart in
+                                NavigationLink(destination: KartIntroView(kart:kart), label: {KartListRow(kart:kart)})
+                            }
+                    }
                 }.padding()
             }
         }
             .navigationBarTitle("\(engine) 엔진")
+            .searchable(text:$searchText)
     }
 }
 
