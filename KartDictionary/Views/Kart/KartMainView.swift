@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct KartMainView: View {
+    let engineArr = ["PRO", "SR", "Z7", "HT", "NEW", "JIU(9)", "X", "V1", "R"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ForEach(engineArr, id: \.self){engine in
+                NavigationLink(destination: KartDetailView(engine: engine),
+                               label: {KartEngineList(engine: engine)})
+            }
+            Spacer()
+        }
+        
     }
 }
 

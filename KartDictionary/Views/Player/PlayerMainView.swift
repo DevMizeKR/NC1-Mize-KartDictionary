@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct PlayerMainView: View {
+    @State var playerType:String = "player"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Picker(selection: $playerType, label: Text("Player List")) {
+                Text("선수")
+                    .tag("player")
+                Text("팀")
+                    .tag("team")
+            }.pickerStyle(SegmentedPickerStyle())
+                .padding()
+            Spacer()
+        }
     }
 }
 

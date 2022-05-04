@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F55FC2C2822543800D95409 /* KartListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F55FC2B2822543800D95409 /* KartListRow.swift */; };
+		6F72E3A0282116DB0050A33A /* TrackIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72E39F282116DB0050A33A /* TrackIntroView.swift */; };
+		6F79A7DB282140040032DAFA /* KartList.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F79A7DA282140040032DAFA /* KartList.json */; };
+		6F812B8B2821469D0049555C /* KartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F812B8A2821469D0049555C /* KartDetailView.swift */; };
+		6F812B8F28214A780049555C /* KartEngineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F812B8E28214A780049555C /* KartEngineList.swift */; };
+		6F8E0DDF281FAF3600B327B3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8E0DDE281FAF3600B327B3 /* ModelData.swift */; };
+		6F929B772820F7AC00847A37 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F929B762820F7AC00847A37 /* TrackDetailView.swift */; };
+		6FA8C00628225D7C00E5D403 /* KartIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8C00528225D7C00E5D403 /* KartIntroView.swift */; };
+		6FA8E82E281FAD570055A8D5 /* TrackList.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FA8E82D281FAD570055A8D5 /* TrackList.json */; };
+		6FA8E831281FAEC20055A8D5 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8E830281FAEC20055A8D5 /* Track.swift */; };
 		6FC52D59281BAF0C00872956 /* KartDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D58281BAF0C00872956 /* KartDictionaryApp.swift */; };
 		6FC52D5B281BAF0C00872956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D5A281BAF0C00872956 /* ContentView.swift */; };
 		6FC52D5D281BAF0F00872956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC52D5C281BAF0F00872956 /* Assets.xcassets */; };
@@ -14,6 +24,7 @@
 		6FC52D6A281BAF0F00872956 /* KartDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D69281BAF0F00872956 /* KartDictionaryTests.swift */; };
 		6FC52D74281BAF0F00872956 /* KartDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D73281BAF0F00872956 /* KartDictionaryUITests.swift */; };
 		6FC52D76281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52D75281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift */; };
+		6FC66EFD28225499001F518C /* Kart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC66EFC28225499001F518C /* Kart.swift */; };
 		6FEFEA15281BCCF800C1F4C3 /* LeagueMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA14281BCCF800C1F4C3 /* LeagueMainView.swift */; };
 		6FEFEA18281BCD1600C1F4C3 /* TrackMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */; };
 		6FEFEA1B281BCD4400C1F4C3 /* KartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */; };
@@ -39,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F55FC2B2822543800D95409 /* KartListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartListRow.swift; sourceTree = "<group>"; };
+		6F72E39F282116DB0050A33A /* TrackIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackIntroView.swift; sourceTree = "<group>"; };
+		6F79A7DA282140040032DAFA /* KartList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KartList.json; sourceTree = "<group>"; };
+		6F812B8A2821469D0049555C /* KartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDetailView.swift; sourceTree = "<group>"; };
+		6F812B8E28214A780049555C /* KartEngineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartEngineList.swift; sourceTree = "<group>"; };
+		6F8E0DDE281FAF3600B327B3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6F929B762820F7AC00847A37 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		6FA8C00528225D7C00E5D403 /* KartIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartIntroView.swift; sourceTree = "<group>"; };
+		6FA8E82D281FAD570055A8D5 /* TrackList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = TrackList.json; path = KartDictionary/TrackList.json; sourceTree = SOURCE_ROOT; };
+		6FA8E830281FAEC20055A8D5 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		6FC52D55281BAF0C00872956 /* KartDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC52D58281BAF0C00872956 /* KartDictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDictionaryApp.swift; sourceTree = "<group>"; };
 		6FC52D5A281BAF0C00872956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +70,7 @@
 		6FC52D6F281BAF0F00872956 /* KartDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC52D73281BAF0F00872956 /* KartDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDictionaryUITests.swift; sourceTree = "<group>"; };
 		6FC52D75281BAF0F00872956 /* KartDictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartDictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FC66EFC28225499001F518C /* Kart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kart.swift; sourceTree = "<group>"; };
 		6FEFEA14281BCCF800C1F4C3 /* LeagueMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueMainView.swift; sourceTree = "<group>"; };
 		6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMainView.swift; sourceTree = "<group>"; };
 		6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartMainView.swift; sourceTree = "<group>"; };
@@ -81,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0BCDD8281FABB900585F88 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6FA8E82D281FAD570055A8D5 /* TrackList.json */,
+				6F79A7DA282140040032DAFA /* KartList.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		6F307DE7281BB76C00F89A62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +123,16 @@
 				6FEFEA1F281BCD8100C1F4C3 /* Record */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6FA8E82F281FAEAF0055A8D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F8E0DDE281FAF3600B327B3 /* ModelData.swift */,
+				6FA8E830281FAEC20055A8D5 /* Track.swift */,
+				6FC66EFC28225499001F518C /* Kart.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6FC52D4C281BAF0C00872956 = {
@@ -120,6 +161,8 @@
 				6FC52D58281BAF0C00872956 /* KartDictionaryApp.swift */,
 				6F307DE7281BB76C00F89A62 /* Views */,
 				6FC52D5E281BAF0F00872956 /* Preview Content */,
+				6FA8E82F281FAEAF0055A8D5 /* Model */,
+				6F0BCDD8281FABB900585F88 /* Resource */,
 				6FC52D5C281BAF0F00872956 /* Assets.xcassets */,
 			);
 			path = KartDictionary;
@@ -162,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				6FEFEA17281BCD1600C1F4C3 /* TrackMainView.swift */,
+				6F929B762820F7AC00847A37 /* TrackDetailView.swift */,
+				6F72E39F282116DB0050A33A /* TrackIntroView.swift */,
 			);
 			path = Track;
 			sourceTree = "<group>";
@@ -170,6 +215,10 @@
 			isa = PBXGroup;
 			children = (
 				6FEFEA1A281BCD4400C1F4C3 /* KartMainView.swift */,
+				6F812B8E28214A780049555C /* KartEngineList.swift */,
+				6F812B8A2821469D0049555C /* KartDetailView.swift */,
+				6F55FC2B2822543800D95409 /* KartListRow.swift */,
+				6FA8C00528225D7C00E5D403 /* KartIntroView.swift */,
 			);
 			path = Kart;
 			sourceTree = "<group>";
@@ -294,8 +343,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA8E82E281FAD570055A8D5 /* TrackList.json in Resources */,
 				6FC52D60281BAF0F00872956 /* Preview Assets.xcassets in Resources */,
 				6FC52D5D281BAF0F00872956 /* Assets.xcassets in Resources */,
+				6F79A7DB282140040032DAFA /* KartList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,10 +373,19 @@
 			files = (
 				6FEFEA1E281BCD7900C1F4C3 /* PlayerMainView.swift in Sources */,
 				6FC52D5B281BAF0C00872956 /* ContentView.swift in Sources */,
+				6F8E0DDF281FAF3600B327B3 /* ModelData.swift in Sources */,
+				6F812B8B2821469D0049555C /* KartDetailView.swift in Sources */,
+				6F929B772820F7AC00847A37 /* TrackDetailView.swift in Sources */,
 				6FC52D59281BAF0C00872956 /* KartDictionaryApp.swift in Sources */,
+				6F55FC2C2822543800D95409 /* KartListRow.swift in Sources */,
+				6FA8C00628225D7C00E5D403 /* KartIntroView.swift in Sources */,
+				6FA8E831281FAEC20055A8D5 /* Track.swift in Sources */,
 				6FEFEA21281BCDA400C1F4C3 /* RecordMainView.swift in Sources */,
 				6FEFEA15281BCCF800C1F4C3 /* LeagueMainView.swift in Sources */,
+				6FC66EFD28225499001F518C /* Kart.swift in Sources */,
+				6F812B8F28214A780049555C /* KartEngineList.swift in Sources */,
 				6FEFEA18281BCD1600C1F4C3 /* TrackMainView.swift in Sources */,
+				6F72E3A0282116DB0050A33A /* TrackIntroView.swift in Sources */,
 				6FEFEA1B281BCD4400C1F4C3 /* KartMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

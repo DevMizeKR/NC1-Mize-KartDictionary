@@ -9,7 +9,17 @@ import SwiftUI
 
 struct TrackMainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            LazyVGrid(columns: Array(repeating: .init(.flexible()), count: 4)) {
+                ForEach(tracks.filter({$0.type == "logo"}), id:\.id){track in
+                    NavigationLink(destination: TrackDetailView(themename: track.name),
+                                   label: {Image(track.imageName)
+                            .resizable()
+                            .frame(width: 80, height: 80)})
+                }
+            }
+            .padding()
+        }
     }
 }
 

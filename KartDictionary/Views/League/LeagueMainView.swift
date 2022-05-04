@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LeagueMainView: View {
     var body: some View {
-        Text("asdf")
+        Text("리그 목록")
     }
 }
 
