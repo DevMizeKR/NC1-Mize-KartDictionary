@@ -11,11 +11,10 @@ struct KartMainView: View {
     let engineArr = ["PRO", "SR", "Z7", "HT", "NEW", "JIU(9)", "X", "V1", "R"]
     var body: some View {
         VStack{
-            ForEach(engineArr, id: \.self){engine in
+            List (engineArr, id: \.self) {engine in
                 NavigationLink(destination: KartDetailView(engine: engine),
-                               label: {KartEngineList(engine: engine)})
+                                label: {Text("\(engine) 엔진")})
             }
-            Spacer()
         }
         
     }

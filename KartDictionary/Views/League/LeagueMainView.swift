@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct LeagueMainView: View {
+    @State var leaguemode: String = "person"
     var body: some View {
-        Text("리그 목록")
+        Picker(selection: $leaguemode, label: Text("League List")) {
+            Text("개인전")
+                .tag("person")
+            Text("팀전")
+                .tag("team")
+            Text("공동")
+                .tag("both")
+        }.pickerStyle(SegmentedPickerStyle())
+            .padding()
     }
 }
 

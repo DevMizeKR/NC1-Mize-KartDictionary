@@ -5,7 +5,8 @@
         "type" : "PRO",
         "name" : "세이버 PRO",
         "mode" : "speed",
-        "color" : "#1169C0"
+        "color" : "#1169C0",
+        "skill" : [500, 49, 743, 440, 200]
     },
     {
         "id" : 11002,
@@ -13,7 +14,8 @@
         "type" : "PRO",
         "name" : "플라즈마 PXT",
         "mode" : "speed",
-        "color" : "#1169C0"
+        "color" : "#1169C0",
+        "skill" : [500, 49, 743, 2940, -1500]
     },
     {
         "id" : 11003,
@@ -21,6 +23,7 @@
         "type" : "PRO",
         "name" : "플라즈마 FXT",
         "mode" : "speed",
-        "color" : "#1169C0"
+        "color" : "#1169C0",
+        "skill" : [500, 49, 743, -60, 2200]
     }
 ]

@@ -14,6 +14,7 @@ struct Kart: Identifiable, Decodable {
     var name: String
     var mode: String
     var color: String
+    var skill: [Int]
     var imageName: String
     var image: Image{
         Image(imageName)
